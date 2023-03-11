@@ -16,7 +16,7 @@ character is in [".","?","!",";"]
 * Start of the sentence tag is added after encountering ‘end of the sentence’ using the
 above condition and for the very first line of the file by default start of the sentence tag is
 added.
-* Punctuations are removed using regular expression of the form “[^a-zA-Z]
+* Punctuations are removed using regular expression of the form [^a-zA-Z]
 
 `2.  Language Model (LM.py):` (tokenization + 4-gram LM + Kneser-Ney smoothing)
 
